@@ -1,0 +1,16 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "titulo": "Express.js dominado",
+      "descripcion": "Revisar la documentación oficial de Express",
+      "completada": true
+    },
+    {
+      "id": 2,
+      "titulo": "Aprender Express.js",
+      "descripcion": "Seguir tutoriales y practicar con proyectos",
+      "completada": false
+    }
+  ]
+}

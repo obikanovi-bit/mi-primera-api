@@ -1,0 +1,27 @@
+get http://localhost:3000/tareas http/1.1
+
+### VERIFICAR TAREA POR ID ###
+GET http://localhost:3000/tareas/3 http/1.1
+
+### AÑADIR TAREA ###
+POST http://localhost:3000/tareas http/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Aprender nodemon.js",
+    "descripcion": "Seguir tutoriales y practicar con proyectos",
+    "completada": false
+}
+
+### MODIFICAR TAREA ###
+PUT http://localhost:3000/tareas/2 http/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Aprender express.js",
+    "descripcion": "Seguir tutoriales y practicar con proyectoss",
+    "completada": true
+}
+
+### ELIMINAR TAREA ###
+DELETE http://localhost:3000/tareas/3 http/1.1
