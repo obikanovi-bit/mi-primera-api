@@ -113,7 +113,7 @@ El servidor quedará disponible en `http://localhost:3000`.
 ]
 ```
 
-> 📸 [Resultado Esperado](image.png)
+> 📸 ![Resultado Esperado](image.png)
 
 ---
 
@@ -152,7 +152,7 @@ Si se envía el body sin el campo `titulo`, el servidor responde:
 }
 ```
 
-> 📸 [Resultado Esperado](image-1.png)
+> 📸 ![Resultado Esperado](image-1.png)
 
 ---
 
@@ -190,7 +190,7 @@ Si el ID no existe, el servidor responde:
 }
 ```
 
-> 📸 [Resultado Esperado](image-2.png)
+> 📸 ![Resultado Esperado](image-2.png)
 
 ---
 
@@ -214,7 +214,7 @@ Si el ID no existe, el servidor responde:
 }
 ```
 
-> 📸 [Resultado Esperado](image-3.png)
+> 📸 ![Resultado Esperado](image-3.png)
 
 ---
 
