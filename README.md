@@ -30,7 +30,7 @@ mi-primera-api/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/obikanovi-bit/mi-primera-api.git
+git clone https://github.com/obikanovi-bit/mi-primera-api
 cd mi-primera-api
 ```
 
