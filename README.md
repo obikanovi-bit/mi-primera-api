@@ -190,7 +190,7 @@ Si el ID no existe, el servidor responde:
 }
 ```
 
-> 📸 ![Resultado Esperado](image-2.png)
+> 📸 [Resultado Esperado](image-2.png)
 
 ---
 
