@@ -19,9 +19,9 @@ mi-primera-api/
 
 ## Tecnologías utilizadas
 
-- **Node.js** — entorno de ejecución JavaScript del lado del servidor
-- **Express.js v5** — framework web para crear el servidor y gestionar rutas
-- **Postman** — herramienta utilizada para probar los endpoints de la API
+- **Node.js** - entorno de ejecución JavaScript del lado del servidor
+- **Express.js v5** - framework web para crear el servidor y gestionar rutas
+- **Postman** - herramienta utilizada para probar los endpoints de la API
 
 ---
 
