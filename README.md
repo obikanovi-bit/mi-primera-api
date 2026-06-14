@@ -88,7 +88,7 @@ El servidor quedará disponible en `http://localhost:3000`.
 
 ---
 
-### 1. GET — Listar todas las tareas
+### 1. GET - Listar todas las tareas
 
 **Configuración en Postman:**
 - Método: `GET`
@@ -117,12 +117,12 @@ El servidor quedará disponible en `http://localhost:3000`.
 
 ---
 
-### 2. POST — Crear una nueva tarea
+### 2. POST - Crear una nueva tarea
 
 **Configuración en Postman:**
 - Método: `POST`
 - URL: `http://localhost:3000/tareas`
-- Pestaña **Body** → seleccionar **raw** → tipo **JSON**
+- Pestaña **Body** -> seleccionar **raw** -> tipo **JSON**
 - Pegar el siguiente JSON en el campo de texto:
 
 ```json
@@ -143,7 +143,7 @@ El servidor quedará disponible en `http://localhost:3000`.
 }
 ```
 
-**Error — falta el campo `titulo` (400 Bad Request):**
+**Error - falta el campo `titulo` (400 Bad Request):**
 
 Si se envía el body sin el campo `titulo`, el servidor responde:
 ```json
@@ -156,12 +156,12 @@ Si se envía el body sin el campo `titulo`, el servidor responde:
 
 ---
 
-### 3. PUT — Actualizar una tarea existente
+### 3. PUT - Actualizar una tarea existente
 
 **Configuración en Postman:**
 - Método: `PUT`
 - URL: `http://localhost:3000/tareas/1`
-- Pestaña **Body** → seleccionar **raw** → tipo **JSON**
+- Pestaña **Body** -> seleccionar **raw** -> tipo **JSON**
 - Pegar el siguiente JSON en el campo de texto:
 
 ```json
@@ -181,7 +181,7 @@ Si se envía el body sin el campo `titulo`, el servidor responde:
 }
 ```
 
-**Error — tarea no encontrada (404 Not Found):**
+**Error - tarea no encontrada (404 Not Found):**
 
 Si el ID no existe, el servidor responde:
 ```json
@@ -194,7 +194,7 @@ Si el ID no existe, el servidor responde:
 
 ---
 
-### 4. DELETE — Eliminar una tarea
+### 4. DELETE - Eliminar una tarea
 
 **Configuración en Postman:**
 - Método: `DELETE`
